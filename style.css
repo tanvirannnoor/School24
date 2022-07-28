@@ -3,9 +3,46 @@ body{
 }
 
 
-
 .banner-img{
     background: black;
     object-fit: cover;
     opacity: 0.4;
+}
+
+.register-now{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20%;
+    border-radius: 5px;
+    
+}
+
+@media only screen and (max-width: 576px){
+    .course-dtl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ready-to-join{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .trusted-company{
+        visibility: hidden;
+    }
+    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px){
+    .trusted-company{
+        visibility: hidden;
+}
 }
